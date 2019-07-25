@@ -1,18 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/Users/student/Documents/projects/thermostat/public/stylesheet.css">
+
+   <!-- FONT
+   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+   <!-- CSS
+   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+   <!-- Scripts
+   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+   <!-- Favicon
+   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   <link rel="icon" type="image/png" href="../../dist/images/favicon.png">
+
+ </head>
+
+
+
+
+
+
+
+
+
+
+
+
 <html>
+
+<head>
+  <link rel="stylesheet" href="/Users/student/Documents/projects/thermostat/public/stylesheet.css">
+</head>
+
   <body style="background-color:rgb(231, 139, 99)">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <h1><center>Thermostat</center></h1>
     <section>
-      <h1 id="temperature"></h1>
-      <p><center>
-        <button id="temperature-up">Hotter + </button>
-        <button id="temperature-down">Colder - </button>
-        <button id="temperature-reset">Reset</button>
-        Power saving mode is <span id="power-saving-status">on</span>
-        <button id="powersaving-on">Turn power saving mode on</button>
-        <button id="powersaving-off">Turn power saving mode off</button>
-      </center></p>
-    </section>
+      <!DOCTYPE html>
+      <html>
+        <body>
+          <section>
+            <center>
+              <section>
+                <h1>Current temperature: <span id="current-temperature">20</span></h1>
+                <form id="select-city">
+                  <input id="current-city" type="text" placeholder="Enter a city"></input>
+                  <input type="submit"></input>
+                </form>
+              </section>
+              </center>
+              </section>
+                <center>
+                  <h1 id="temperature"></h1>
+                  <button id="temp-up">+</button>
+                  <button id="temp-down">-</button>
+                  <button id="temp-reset">reset</button>
+                  power saving mode is <span id="power-saving-status">on</span>
+                  <button id="psm-on">PSM on</button>
+                  <button id="psm-off">PSM off</button>
+                </center>
+                </section>
+              </body>
+            </html>
+          </section>
 
     <script src="src/Thermostat.js"></script>
+    <script src="interface.js"></script>
   </body>
 </html>
